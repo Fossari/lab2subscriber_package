@@ -1,0 +1,7 @@
+<launch>
+  <arg name="robot" default="robot0" />
+
+  <node name="something" pkg="subscriber_package" type="node" ns ="$(arg robot)" >
+   
+  </node>
+</launch>

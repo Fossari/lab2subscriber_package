@@ -1,0 +1,10 @@
+
+
+
+<launch>
+
+  <include file="$(find subscriber_package)/something.launch"/>
+
+  <include file="$(find stdr_launchers)/launch/server_with_map_and_gui.launch"/>
+
+</launch>
